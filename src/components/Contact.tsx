@@ -102,7 +102,7 @@ export default function Contact() {
               </p>
 
               <div className="space-y-6">
-                {contactMethods.map((method, index) => (
+                {contactMethods.map((method) => (
                   <motion.a
                     key={method.label}
                     href={method.href}

@@ -69,7 +69,7 @@ export default function About() {
               viewport={{ once: true }}
               className="grid grid-cols-2 gap-6"
             >
-              {stats.map((stat, index) => (
+              {stats.map((stat) => (
                 <motion.div
                   key={stat.label}
                   initial={{ opacity: 0, y: 20 }}

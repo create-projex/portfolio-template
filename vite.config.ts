@@ -20,5 +20,5 @@ export default defineConfig({
     },
   },
   // GitHub Pages deployment base
-  base: process.env.NODE_ENV === 'production' ? '/portfolio-template/' : '/',
+  base: '/',
 });
